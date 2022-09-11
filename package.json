@@ -1,0 +1,31 @@
+{
+  "name": "dev-template-11ty-plugins",
+  "version": "1.0.0",
+  "description": "Dev template.",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
+    "watch": "npx @11ty/eleventy --watch",
+    "serve": "npx @11ty/eleventy --serve",
+    "dev": "npx @11ty/eleventy --serve --incremental",
+    "debug": "DEBUG=* npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/patrickgrey/rs-11ty-skeleton.git"
+  },
+  "author": {
+    "name": "Patrick Grey",
+    "email": "patrick.grey.ext@eurocontrol.int",
+    "url": "https://risingsky.co.uk/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrickgrey/rs-11ty-skeleton/issues"
+  },
+  "homepage": "https://github.com/patrickgrey/rs-11ty-skeleton#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0-canary.15",
+    "sass": "^1.54.9"
+  }
+}
